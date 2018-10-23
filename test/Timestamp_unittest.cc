@@ -55,7 +55,7 @@ void benchmark()
   }
 }
 
-int main()
+int main_Timestamp()
 {
   Timestamp now(Timestamp::now());
   printf("now to string %s\n", now.toString().c_str());
@@ -65,5 +65,6 @@ int main()
   benchmark();
 
   getchar();
+  return 0;
 }
 

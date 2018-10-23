@@ -66,14 +66,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\base\Atomic.h" />
     <ClInclude Include="..\..\..\base\copyable.h" />
     <ClInclude Include="..\..\..\base\Timestamp.h" />
     <ClInclude Include="..\..\..\base\Types.h" />
+    <ClInclude Include="..\..\..\base\uncopyable.h" />
     <ClInclude Include="..\..\..\base\win_time.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\base\Timestamp.cc" />
     <ClCompile Include="..\..\..\base\win_time.cc" />
+    <ClCompile Include="..\..\..\test\Atomic_unittest.cc" />
     <ClCompile Include="..\..\..\test\Timestamp_unittest.cc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

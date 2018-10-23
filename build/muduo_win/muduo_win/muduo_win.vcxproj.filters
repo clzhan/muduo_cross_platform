@@ -33,6 +33,12 @@
     <ClInclude Include="..\..\..\base\win_time.h">
       <Filter>源文件\base</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\base\Atomic.h">
+      <Filter>源文件\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\base\uncopyable.h">
+      <Filter>源文件\base</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\base\Timestamp.cc">
@@ -42,6 +48,9 @@
       <Filter>源文件\base</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\test\Timestamp_unittest.cc">
+      <Filter>源文件\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\test\Atomic_unittest.cc">
       <Filter>源文件\test</Filter>
     </ClCompile>
   </ItemGroup>

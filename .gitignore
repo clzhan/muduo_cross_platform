@@ -2,3 +2,4 @@ build/muduo_win/Debug/
 build/muduo_win/muduo_win/Debug/
 *.suo
 *.sdf
+*.opensdf

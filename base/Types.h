@@ -9,7 +9,6 @@
 #include <assert.h>
 #endif
 
-
 ///
 /// The most common stuffs.
 ///
